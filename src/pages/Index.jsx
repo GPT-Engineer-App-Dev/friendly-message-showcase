@@ -4,21 +4,11 @@ import { ArrowRight, Zap, Shield, Users } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
-      <header className="py-6 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-blue-600">AppName</h1>
-          <nav>
-            <ul className="flex space-x-4">
-              <li><a href="#features" className="text-gray-600 hover:text-blue-600">Features</a></li>
-              <li><a href="#about" className="text-gray-600 hover:text-blue-600">About</a></li>
-              <li><a href="#contact" className="text-gray-600 hover:text-blue-600">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-100 to-white">
+      <h1 className="text-4xl font-bold text-blue-600">Testing321</h1>
+    </div>
+  );
+};
         <section className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
             Welcome to Our Amazing App
